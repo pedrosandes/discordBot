@@ -3,7 +3,6 @@ const { roles } = require('./content');
 
 module.exports = {
   async handleRoles(interaction) {
-    console.log(interaction)
      try {
        const role = roles[interaction.customId.toUpperCase()];
        
